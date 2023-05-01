@@ -1,0 +1,146 @@
+MISS chunk
+0	uint32		mission number
+				Value	Load name	Mission file	Mission
+				00		Mission 0			(crash)
+				01		Mission 1	mission1.dte	
+				02		Mission 2	mission2.dte
+				03		Mission 3	mission3.dte
+				04		Mission 4	mission4.dte
+				05		Mission 5	mission5.dte
+				06		Mission 6	mission6.dte
+				07		Mission 7	mission7.dte
+				08		Mission 8	mission8.dte
+				09		Mission 9	mission9.dte
+				0A		Mission 10	mission10.dte
+				0B		Mission 11	mission11.dte
+				0C		Mission 12			(crash)
+				0D		Mission 13			(crash)
+				0E		Mission 12	mission14.dte
+				0F		Mission 13	mission15.dte
+				10		Mission 14	mission16.dte
+				11		Mission 16			(crash)
+				12		Mission 15	mission18.dte
+				13		Mission 16	mission19.dte
+				14		Mission 17	mission20.dte
+				15		Mission 18	mission21.dte
+				16		Mission 22			(crash)
+				17		Mission 19	mission23.dte
+				18		Mission 20	mission24.dte
+				19		Mission 21	mission25.dte
+				1A		Mission 22	mission26.dte
+				1B		Mission 23	mission27.dte
+				1C		Mission 24	mission28.dte
+				1D		Mission 0	mission29.dte	Instant Action
+				1E		Mission 0	mission30.dte	(crash in briefing)
+				1F		Mission 0	mission31.dte	(crash in briefing)
+				20		Mission 286	mission32.dte
+				21		Mission 269	mission33.dte
+				22		Mission 25	mission34.dte
+				23		Mission 16	mission35.dte
+				...					(crash)
+				51		Mission 0	mission81.dte	(crash)
+				52		Mission 67	mission82.dte	(crash in briefing)
+				53		Mission 0	mission83.dte	
+				54					mission84.dte
+				55					mission85.dte
+				56
+				57					mission87.dte
+				58					mission88.dte
+				...
+				63					mission99.dte
+				BF					mission191.dte
+				FB					mission251.dte
+				10F					mission271.dte
+				137					mission311.dte
+				321					mission801.dte
+				
+				
+				
+4	char[20]	name
+24	uint32		Rank (00 - 2nd Lt, 08 - Squadron Commander)
+28	uint32		Level (00 - Bronze, 01 - Silver, 02 - Gold, 03 - Platinum)
+2C	uint32		kills
+
+64	uint16		mission 01 success (00: complete failure, 01: almost failed, 02: average, 03: successful, 04: perfect, FFFF: not played)
+66	uint16		mission 02 success (00: complete failure, 01: almost failed, 02: average, 03: successful, 04: perfect, FFFF: not played)
+68	uint16		mission 03 success (00: complete failure, 01: almost failed, 02: average, 03: successful, 04: perfect, FFFF: not played)
+6A	uint16		mission 04 success (00: complete failure, 01: almost failed, 02: average, 03: successful, 04: perfect, FFFF: not played)
+6C	uint16		mission 05 success (00: complete failure, 01: almost failed, 02: average, 03: perfect, 04: weird m01 message, FFFF: not played)
+6E	uint16		mission 06 success (00: complete failure, 01: almost failed, 02: average, 03: successful, 04: perfect, FFFF: not played)
+70	uint16		mission 07 success (00: complete failure, 01: almost failed, 02: average, 03: successful, 04: perfect, FFFF: not played)
+72	uint16		mission 08 success (00: complete failure, 01: almost failed, 02: average, 03: successful, 04: perfect, FFFF: not played)
+74	uint16		mission 09 success (00: complete failure, 01: almost failed, 02: average, 03: successful, 04: perfect, FFFF: not played)
+76	uint16		mission 10 success (00: complete failure, 01: almost failed, 02: average, 03: successful, 04: perfect, FFFF: not played)
+78	uint16		mission 11 success (00: complete failure, 01: almost failed, 02: average, 03: successful, 04: perfect, FFFF: not played)
+7A	uint16		empty mission success slot
+7C	uint16		empty mission success slot
+7E	uint16		mission 12 success (00: complete failure, 01: almost failed, 02: average, 03: successful, 04: perfect, FFFF: not played)
+80	uint16		mission 13 success (00: complete failure, 01: almost failed, 02: average, 03: successful, 04: perfect, FFFF: not played)
+82	uint16		mission 14 success (00: complete failure, 01: almost failed, 02: average, 03: successful, 04: perfect, FFFF: not played)
+84	uint16		empty mission success slot
+86	uint16		mission 15 success (00: complete failure, 01: almost failed, 02: average, 03: successful, 04: perfect, FFFF: not played)
+88	uint16		mission 16 success (00: complete failure, 01: almost failed, 02: average, 03: successful, 04: perfect, FFFF: not played)
+8A	uint16		mission 17 success (00: complete failure, 01: almost failed, 02: average, 03: successful, 04: perfect, FFFF: not played)
+8C	uint16		mission 18 success (00: complete failure, 01: almost failed, 02: average, 03: successful, 04: perfect, FFFF: not played)
+8E	uint16		empty mission success slot
+90	uint16		mission 19 success (00: complete failure, 01: almost failed, 02: average, 03: successful, 04: perfect, FFFF: not played)
+92	uint16		mission 20 success (00: complete failure, 01: almost failed, 02: average, 03: successful, 04: perfect, FFFF: not played)
+94	uint16		mission 21 success (00: complete failure, 01: almost failed, 02: average, 03: successful, 04: perfect, FFFF: not played)
+96	uint16		mission 22 success (00: complete failure, 01: almost failed, 02: average, 03: successful, 04: perfect, FFFF: not played)
+98	uint16		mission 23 success (00: complete failure, 01: almost failed, 02: average, 03: successful, 04: perfect, FFFF: not played)
+
+9E	uint16		mission 01 kills
+A0	uint16		mission 02 kills
+A2	uint16		mission 03 kills
+A4	uint16		mission 04 kills
+A6	uint16		mission 05 kills
+A8	uint16		mission 06 kills
+AA	uint16		mission 07 kills
+AC	uint16		mission 08 kills
+AE	uint16		mission 09 kills
+B0	uint16		mission 10 kills
+B2	uint16		mission 11 kills
+B4	uint16		empty mission kills slot
+B6	uint16		empty mission kills slot
+B8	uint16		mission 12 kills
+BA	uint16		mission 13 kills
+BC	uint16		mission 14 kills
+BE	uint16		empty mission kills slot
+C0	uint16		mission 15 kills
+C2	uint16		mission 16 kills
+C4	uint16		mission 17 kills
+C6	uint16		mission 18 kills
+C8	uint16		empty mission kills slot
+CA	uint16		mission 19 kills
+CC	uint16		mission 20 kills
+CE	uint16		mission 21 kills
+D0	uint16		mission 22 kills
+D2	uint16		mission 23 kills
+D4	uint16		mission 01 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+D6	uint16		mission 02 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+D8	uint16		mission 03 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+DA	uint16		mission 04 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+DC	uint16		mission 05 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+DE	uint16		mission 06 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+F0	uint16		mission 07 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+F2	uint16		mission 08 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+F4	uint16		mission 09 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+F6	uint16		mission 10 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+F8	uint16		mission 11 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+FA	uint16		empty mission result slot
+FC	uint16		empty mission result slot
+FE	uint16		mission 12 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+100	uint16		mission 13 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+102	uint16		mission 14 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+104	uint16		empty mission result slot
+106	uint16		mission 15 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+108	uint16		mission 16 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+10A	uint16		mission 17 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+10C	uint16		mission 18 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+10E	uint16		empty mission result slot
+110	uint16		mission 19 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+112	uint16		mission 20 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+114	uint16		mission 21 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+116	uint16		mission 22 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+118	uint16		mission 23 result (00: success, 01: ejected?, 02: ejected again?, 03: ejected third time, 04: crash)
+
