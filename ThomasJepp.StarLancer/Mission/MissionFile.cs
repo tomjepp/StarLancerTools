@@ -123,7 +123,7 @@ namespace ThomasJepp.StarLancer.Mission
                     data.Unknown00,
                     data.Unknown02,
                     data.Unknown04,
-                    data.Unknown08,f
+                    data.Unknown08,
                     data.Unknown12,
                     data.Unknown16,
                     data.Unknown20,
